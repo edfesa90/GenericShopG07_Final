@@ -1,0 +1,396 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root { --colorTextos: #49454567;
+}
+
+body {
+	font-family: "Roboto";
+	font-family: source-sans-pro;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 750px;
+	background-color: #FFFFFF;
+	background: #bc4e9c; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, hsla(243, 59%, 48%, 0.459),
+		hsla(243, 59%, 83%, 0.664)), url(Imagenes/Imagen2.jpg);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, hsla(243, 59%, 48%, 0.459),
+		hsla(243, 59%, 83%, 0.664)), url(Imagenes/Imagen2.jpg);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+	background-size: cover;
+	background-position: center;
+}
+.menu {
+	width: 90%;
+	top: 100;
+	background: #4568DC;
+	background: -webkit-linear-gradient(to right, #000a6383, #4568DC);
+	background: linear-gradient(to right, #000a6383, #4568DC);
+	text-align: center;
+	position: fixed;
+}
+
+.menu ul {
+	list-style: none;
+}
+
+.menu ul li {
+	display: inline-block;
+	padding: 20px;
+	transition: all .3s ease;
+}
+
+.menu ul li:hover {
+	transform: scale(1.2);
+	background: #4568DC;
+}
+
+.menu ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+.menu botton {
+	color: #fff;
+}
+
+espacio {
+	width: 100%;
+	margin: 0 auto;
+}
+dos {
+	width: 100%;
+	margin-top: 140px;
+}
+.logo {
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	top: 92px;
+	width: 100%;
+	float: left;
+	margin-top: 90px;
+	margin-left: 0px;
+	letter-spacing: 5px;
+	background-color: #52bad5;
+	border-bottom: 1px solid #2C9AB7;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 900;
+}
+
+.titulo {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 0.8) 0%,
+		rgba(9, 9, 121, 0.8) 35%, rgba(0, 212, 255, 0.8) 100%);
+	background-attachment: fixed;
+	position: fixed;
+	top: 0px;
+	height: 6%;
+	width: 100%;
+}
+
+.main {
+	
+	height: 80%;
+	width: 90%;
+	text-align: center;
+	padding: 0px;
+	padding-left: 6%;
+	position: absolute;
+	top: 6%;
+	left: 10%;
+	text-align: center;
+}
+
+.b {
+	width: 96%;
+	height: 6%;
+	text-align: left;
+	font-size: 23;
+	text-decoration: none;
+	display: flex;
+	background: #0000004b;
+	color: rgb(255, 255, 255);
+	position: relative;
+	top: 1%;
+	left: 2%;
+	margin-bottom: 3px;
+	text-align: center;
+	align-items: center;
+	border-radius: 15px;
+}
+
+.b:hover {
+	background: #5757574b;
+}
+
+.b:active {
+	background: #9999994b;
+}
+
+h2 {
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+.acciones {
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	font-size: 18;
+	display: inline-block;
+	background: #000a6383;
+	color: #fff;
+	position: relative;
+	top: 0px;
+	border-radius: 10px;
+}
+
+.acciones:hover {
+	background: #1a23729a;
+}
+
+.acciones:active {
+	background: #4346639a;
+}
+
+.padre {
+	font-size: 25px;
+	height: 100%;
+	width: 100%;
+	line-height: 30px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.hero {
+	font-family: 'Roboto';
+	padding-top: 20px;
+	padding-bottom: 10px;
+	height: 500px;
+	display: flex;
+	justify-content: left;
+	align-items: start;
+	float: left;
+	width: 100%;
+	overflow-y: scroll;
+
+}
+
+form {
+	background: rgba(255, 255, 255, 0.392);
+	padding: 40px 0;
+	box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+	margin-left: 4px;
+	width: 100%
+}
+
+.form {
+	width: 50%;
+	margin: auto;
+}
+
+form .grupo {
+	position: relative;
+	margin: 10px;
+}
+
+
+
+label {
+    background: rgba(255, 255, 255, 0);
+    width: 16%;
+    height: 40px;
+    text-align: right;
+    display: inline-block;
+}
+
+input {
+	font-size: 15px;
+	
+	height: 40px;
+	left: 10px;
+	text-align: left;
+	padding: 0px 15px;
+	margin: 2px 2px;
+	border-radius: 5px;
+}
+
+table {
+	font-size: 20px;
+}
+
+.edit {
+	margin-top: 20px;
+	width: 230px;
+	position: relative;
+	top: 10px;
+	text-align: center;
+}
+
+.Canti {
+	margin-top: 20px;
+	width: 80px;
+	position: relative;
+	top: 10px;
+	text-align: center;
+}
+
+.mas {
+	width: 200px;
+	text-align: center;
+	padding-right: 25px;
+}
+
+.Cant {
+	width: 80px;
+}
+
+.segunda {
+	padding-left: 10.8%;
+}
+
+.tercera {
+	position: absolute;
+	right: 400px;
+}
+
+.Confirmar {
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	font-size: 18;
+	display: inline-block;
+	background: #000a6383;
+	color: #fff;
+	position: relative;
+	top: 200px;
+	right: 30px;
+	border-radius: 10px;
+}
+
+.Confirmar:hover {
+	background: #1a23729a;
+}
+
+.Confirmar:active {
+	background: #4346639a;
+}
+
+
+
+.tablaU {
+	width: 90%;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	margin-left: 4%;
+	padding: 0;
+	table-layout: fixed;
+}
+
+.tablaU tr {
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.tablaU th, .tablaU td {
+	color: #000000;
+	font-size: 16px;
+	padding: 8px;
+	text-align: center;
+}
+
+.tablaU thead th {
+	text-transform: uppercase;
+	background-color: #52bad5;
+}
+
+.tablaU tbody tr:hover {
+	background-color: #4568DC
+}
+
+.tablaU tbody td:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.tablaE{
+	text-transform: uppercase;
+	background-color: #52bad5;
+}
+
+.forma .label{
+	width:25%;
+}
+.forma .label{
+	width:200px;
+}
+@media screen and(max-width:500px) {
+	.tablaU {
+		border: 0px;
+	}
+	.tablaU caption {
+		font-size: 22px;
+	}
+	.tablaU thead {
+		display: none;
+	}
+	.tablaU tr {
+		margin-bottom: 8px;
+		border-bottom: 4px solid #ddd;
+		display: block;
+	}
+	.tablaU th, .tablaU td {
+		font-size: 12px;
+	}
+	.tablaU td {
+		display: block;
+		border-bottom: 1px solid #ddd;
+		text-align: right;
+	}
+	.tablaU td:last ~child {
+		border-bottom: 0px;
+	}
+	.tablaU td::before {
+		content: attr(data-label);
+		font-weight: bold;
+		text-transform: uppercase;
+		float: left;
+	}
+}
+
+
+
+
+
+@media screen and(max-width:500px) {
+	form {
+		width: 80%;
+	}
+}
